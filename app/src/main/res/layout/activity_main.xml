@@ -61,5 +61,7 @@
             android:textSize="@dimen/sub_medium_text"/>
 
     </LinearLayout>
+
+
 </ScrollView>
 </android.support.v4.widget.DrawerLayout>

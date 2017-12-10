@@ -22,4 +22,11 @@
         <item name="windowActionBar">false</item>
     </style>
 
+    <style name="MonthButton">
+        <item name="android:background">@drawable/selector_monthbutton</item>
+        <item name="android:textColor">@color/accent_white</item>
+    </style>
+    
+
+
 </resources>

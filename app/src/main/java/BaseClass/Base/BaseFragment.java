@@ -14,7 +14,9 @@ import butterknife.ButterKnife;
 
 
 public abstract class BaseFragment extends Fragment {
+
 protected  String TAG;
+
 private AppCompatActivity activity;
 
     @Override
@@ -45,7 +47,7 @@ private AppCompatActivity activity;
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-      ButterKnife.bind(view);
+        ButterKnife.bind(view);
         setListener();
         initData();
         setData();
